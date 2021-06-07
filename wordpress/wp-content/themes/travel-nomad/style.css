@@ -1,0 +1,123 @@
+/*
+Theme Name: Travel Nomad
+Theme URI: https://blossomthemes.com/wordpress-themes/travel-nomad/
+Template: blossom-travel
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Travel Nomad is a beautiful and extremely customizable theme to create a professional travel blog. This multipurpose theme can be also used for creating different types of blogs such as fashion, lifestyle, journal, beauty, parenting, recipes, and many more. It includes sections such as Banner with CTA, About, Latest Posts, and Map to share your travel tips and expertise. With the Instagram section, you can flaunt your travel posts and increase your followers. The newsletter integration will help you grow your email list and stay in touch with your readers. Travel Nomad is SEO-friendly, speed optimized, mobile-friendly, translation ready, RTL ready, and WooCommerce compatible. Check demo at https://blossomthemes.com/theme-demo/?theme=travel-nomad, read the documentation at https://docs.blossomthemes.com/travel-nomad/, and get support at https://blossomthemes.com/support-ticket/.
+Version: 1.0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tested up to: 5.6
+Requires PHP: 5.6
+Text Domain: travel-nomad
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+:root {
+    /* --primary-color: #dcd4ca;
+    --secondary-color: #d0c6b9; */
+    --white-color: #ffffff;
+    --white-color-rgb: 255, 255, 255;
+    --black-color: #000000;
+    --black-color-rgb: 0, 0, 0;
+    /* --primary-font: 'Nanum Gothic', sans-serif;
+    --secondary-font: 'Nanum Myeongjo', serif; */
+}
+
+/* body {
+    font-family: var(--primary-font);
+    font-size: 17px;
+} */
+
+.entry-content a, 
+.entry-summary a, 
+.page-content a, 
+.comment-content a, 
+.widget .textwidget a {
+	text-decoration: underline;
+}
+
+.entry-content a:hover, 
+.entry-summary a:hover, 
+.page-content a:hover, 
+.comment-content a:hover, 
+.widget .textwidget a:hover {
+	text-decoration: none;
+}
+
+
+/*==========================
+SITE HEADER LAYOUT SIX
+==========================*/
+.header-six .header-t {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.header-six .header-main {
+	border-top: 1px solid rgba(var(--black-color-rgb), 0.1);
+}
+
+.header-six .header-main .container {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header-six .header-main .main-navigation {
+	display: flex;
+	flex: auto;
+}
+
+.main-navigation ul li.current-menu-item, 
+.main-navigation ul li.current_page_item, 
+.main-navigation ul li.current-menu-ancestor, 
+.main-navigation ul li.current_page_ancestor {
+	font-weight: bold;
+}
+
+.header-six .main-navigation ul li a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.header-six .main-navigation ul li .submenu-toggle {
+	top: 22px;
+	color: inherit;
+}
+
+.header-six .header-main .header-right {
+	display: flex;
+	flex: auto;
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.header-six .header-main .header-social + .header-search .search-toggle {
+	border-left: 1px solid rgba(var(--black-color-rgb), 0.1);
+	padding-left: 15px;
+	margin-left: 15px;
+}
+
+.header-six .header-main .header-search .search-toggle {
+	line-height: 1.3em;
+	color: inherit;
+}
+
+.header-six .header-main .header-search .search-toggle .search-title {
+	display: none;
+}
+
+.header-six .header-search .header-search-wrap {
+	left: auto;
+	right: -30px;
+}
+
+.header-six .header-search.active .header-search-wrap {
+	left: auto;
+	right: 0;
+}

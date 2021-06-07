@@ -1,0 +1,188 @@
+# <!=Copyright (C) 2021 Blossom Themes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel Nomad 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/travel-nomad\n"
+"POT-Creation-Date: 2021-01-07 07:25:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:43
+msgid "Demo & Documentation"
+msgstr ""
+
+#: functions.php:56
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:58
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:76
+msgid "Appearance Settings"
+msgstr ""
+
+#: functions.php:77
+msgid "Customize Color, Typography & Background Image"
+msgstr ""
+
+#: functions.php:95
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:96
+msgid "Primary color of the theme."
+msgstr ""
+
+#: functions.php:117
+msgid "Secondary Color"
+msgstr ""
+
+#: functions.php:118
+msgid "Secondary color of the theme."
+msgstr ""
+
+#: functions.php:129
+msgid "Typography Settings"
+msgstr ""
+
+#: functions.php:149
+msgid "Primary Font"
+msgstr ""
+
+#: functions.php:150
+msgid "Primary font of the site."
+msgstr ""
+
+#: functions.php:171
+msgid "Secondary Font"
+msgstr ""
+
+#: functions.php:172
+msgid "Secondary font of the site."
+msgstr ""
+
+#: functions.php:194
+msgid "Font Size"
+msgstr ""
+
+#: functions.php:195
+msgid "Change the font size of your site."
+msgstr ""
+
+#: functions.php:217
+msgid "Layout Settings"
+msgstr ""
+
+#: functions.php:218
+msgid "Change different page layout from here."
+msgstr ""
+
+#: functions.php:226 functions.php:247
+msgid "Header Layout"
+msgstr ""
+
+#: functions.php:248
+msgid "Choose the layout of the header for your site."
+msgstr ""
+
+#: functions.php:261
+msgid "General Sidebar Layout"
+msgstr ""
+
+#: functions.php:282
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: functions.php:283
+msgid ""
+"This is the general sidebar layout for pages. You can override the sidebar "
+"layout for individual page in respective page."
+msgstr ""
+
+#: functions.php:309
+msgid "Post Sidebar Layout"
+msgstr ""
+
+#: functions.php:310
+msgid ""
+"This is the general sidebar layout for posts & custom post. You can "
+"override the sidebar layout for individual post in respective post."
+msgstr ""
+
+#: functions.php:336
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: functions.php:337
+msgid "This is the general sidebar layout for whole site."
+msgstr ""
+
+#: functions.php:1019
+msgid " Travel Nomad | Developed By "
+msgstr ""
+
+#: functions.php:1020
+msgid " Blossom Themes"
+msgstr ""
+
+#: functions.php:1022
+msgid " Powered by %s"
+msgstr ""
+
+#: functions.php:1022
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Travel Nomad"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blossomthemes.com/wordpress-themes/travel-nomad/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Travel Nomad is a beautiful and extremely customizable theme to create a "
+"professional travel blog. This multipurpose theme can be also used for "
+"creating different types of blogs such as fashion, lifestyle, journal, "
+"beauty, parenting, recipes, and many more. It includes sections such as "
+"Banner with CTA, About, Latest Posts, and Map to share your travel tips and "
+"expertise. With the Instagram section, you can flaunt your travel posts and "
+"increase your followers. The newsletter integration will help you grow your "
+"email list and stay in touch with your readers. Travel Nomad is "
+"SEO-friendly, speed optimized, mobile-friendly, translation ready, RTL "
+"ready, and WooCommerce compatible. Check demo at "
+"https://blossomthemes.com/theme-demo/?theme=travel-nomad, read the "
+"documentation at https://docs.blossomthemes.com/travel-nomad/, and get "
+"support at https://blossomthemes.com/support-ticket/."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blossom Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://blossomthemes.com/"
+msgstr ""
+
+#: functions.php:394
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:395
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr ""
